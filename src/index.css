@@ -1,0 +1,33 @@
+/* src/styles.css */
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task.completed {
+  text-decoration: line-through;
+}
+
+.priority {
+  margin-right: 10px;
+}
+
+.low {
+  color: green;
+}
+
+.medium {
+  color: orange;
+}
+
+.high {
+  color: red;
+}
